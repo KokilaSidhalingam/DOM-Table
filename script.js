@@ -2,9 +2,10 @@ let list1 = [];
 let list2 = [];
 let list3 = [];
 
-let n = 0;
-let x = 0;
+let n = 1;
+let x = 1;
 function AddRow(){
+    //select id as show for adding a row to the table
     let addrow = document.getElementById("show");
     var newrow = addrow.insertRow(n);
     
@@ -22,5 +23,5 @@ cell1.innerHTML = list1[x];
 cell2.innerHTML = list2[x];
 cell3.innerHTML = list3[x];
 n++;
-x++
+x++;
 }
